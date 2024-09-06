@@ -1,16 +1,3 @@
-/**
- * @name Translucence
- * @version 1.0.6.3
- * @description A translucent/frosted glass Discord theme
- * @author CapnKitten
- *
- * @website http://github.com/CapnKitten
- * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
- * @donate https://paypal.me/capnkitten
- * @invite jzJkA6Z
- */
-
-
 :root {
 	--app-bg: url(https://github.com/leolegPremiumPlus/My-theme/blob/main/Monterey%202000x1125.png);
 	--app-blur: 6px;
