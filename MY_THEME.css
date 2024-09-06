@@ -17,14 +17,4 @@
   --background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
   --background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
   --background-blur: 0px; /* app background blur [default: 0px] */
-
-  --background-modifier-hover: rgba(255,255,255,0.075);
-	--background-modifier-selected: rgba(255,255,255,0.125);
-
-  --card-color: rgba(0,0,0,0.4);
-	--card-color-hover: rgba(0,0,0,0.5);
-	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
-
-  --sidebar-color: rgba(0,0,0,0.4);
-	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
 }
