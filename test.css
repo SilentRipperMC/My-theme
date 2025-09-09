@@ -30,7 +30,6 @@
     Triple Column:  184px
     Quad Column:    242px
   */
-  --server-listing-width: 70px;
 
   /*
     Font Size
@@ -47,7 +46,6 @@
   /*
     Server category hover color
   */
-  --category-hover-color: rgb(60, 202, 138);
 
   /*
     Change the unread server animation.
