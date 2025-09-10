@@ -7902,3 +7902,8 @@ html:only-child > head + body div.app_a3002d > div.app__160d8 > div.layers__960e
 	transform: unset !important;
 	animation: unset !important;
 }
+
+/* Masquer le triangle dans les messages Discord */
+.cozy_c19a55 .header_c19a55::after {
+    display: none !important;
+}
