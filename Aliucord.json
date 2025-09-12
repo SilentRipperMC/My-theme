@@ -3,7 +3,8 @@
         "name": "Blossomed",
         "version": "1.0",
         "author": "ukivie",
-        "updater": "https:\/\/raw.githubusercontent.com\/ukivie\/blossom-aliucord-theme\/main\/blossomed.json"
+        "updater": "https:\/\/github.com/SilentRipperMC\/My-theme\/blob\/main\/Aliucord.json"
+                    
     },
     "background": {
         "overlay_alpha": 0,
