@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "name": "Blossomed",
+        "version": "1.0",
+        "author": "ukivie",
+        "updater": "https:\/\/raw.githubusercontent.com\/ukivie\/blossom-aliucord-theme\/main\/blossomed.json"
+    },
+    "background": {
+        "overlay_alpha": 0,
+        "url": "https:\/\/i.imgur.com\/7ILrzuy.jpeg",
+        "blur_radius": 1
+    },
+    "fonts": {},
+    "simple_colors": {},
+    "colors": {},
+    "drawable_tints": {},
+    "raws": {}
+}
