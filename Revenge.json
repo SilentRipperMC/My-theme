@@ -1,84 +1,29 @@
 {
-  "name": "ClearVision v1.2.6 (Gris Transparent)",
-  "description": "Clear Vision modifié : background & containers gris/transparents",
+  "name": "ClearVision Gris Transparent",
+  "description": "ClearVision modifié : background & containers gris/transparents",
   "authors": [
     {
-      "name": "Taki_Shiwa, edited by Sunny + mod by toi",
-      "id": "466968658997149706"
+      "name": "Taki_Shiwa, modifié par Léo"
     }
   ],
   "semanticColors": {
-    "ANDROID_RIPPLE": [ "#80808080", "#80808080", "#80808080" ],
-    "ACTIVITY_CARD_BACKGROUND": [ "#80808080", "#80808080", "#80808080" ],
-    "BACKGROUND_FLOATING": [ "#80808080", "#80808080", "#80808080" ],
-    "BACKGROUND_MENTIONED": [ "#80808033", "#80808033", "#80808033" ],
-    "BACKGROUND_MENTIONED_HOVER": [ "#80808033", "#80808033", "#80808033" ],
-    "BACKGROUND_MESSAGE_HOVER": [ "#80808033", "#80808033", "#80808033" ],
-    "BACKGROUND_MOBILE_PRIMARY": [ "#80808080", "#80808080", "#80808080" ],
-    "BACKGROUND_MOBILE_SECONDARY": [ "#80808080", "#80808080", "#80808080" ],
-    "BACKGROUND_ACCENT": [ "#80808080", "#80808080", "#80808080" ],
-    "BACKGROUND_MODIFIER_ACCENT": [ "#80808080", "#80808080", "#80808080" ],
-    "BACKGROUND_MODIFIER_ACTIVE": [ "#80808055", "#80808055", "#80808055" ],
-    "BACKGROUND_MODIFIER_HOVER": [ "#80808055", "#80808055", "#80808055" ],
-    "BACKGROUND_MODIFIER_SELECTED": [ "#80808066", "#80808066", "#80808066" ],
-    "BACKGROUND_NESTED_FLOATING": [ "#80808080", "#80808080", "#80808080" ],
     "BACKGROUND_PRIMARY": [ "#80808080", "#80808080", "#80808080" ],
     "BACKGROUND_SECONDARY": [ "#80808080", "#80808080", "#80808080" ],
     "BACKGROUND_SECONDARY_ALT": [ "#80808080", "#80808080", "#80808080" ],
-    "BACKGROUND_TERTIARY": [ "#80808080", "#80808080", "#80808080" ],
-    "BG_BACKDROP": [ "#808080CC", "#808080CC", "#808080CC" ],
-    "BG_BASE_PRIMARY": [ "#80808080", "#80808080", "#80808080" ],
-    "BG_SURFACE_OVERLAY_TMP": [ "#80808080", "#80808080", "#80808080" ],
-    "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": [ "#80808080", "#80808080", "#80808080" ],
+    "BACKGROUND_FLOATING": [ "#808080CC", "#808080CC", "#808080CC" ],
+    "BACKGROUND_MODIFIER_HOVER": [ "#80808033", "#80808033", "#80808033" ],
+    "BACKGROUND_MODIFIER_ACTIVE": [ "#80808055", "#80808055", "#80808055" ],
+    "BACKGROUND_MODIFIER_SELECTED": [ "#80808066", "#80808066", "#80808066" ],
     "CARD_PRIMARY_BG": [ "#80808080", "#80808080", "#80808080" ],
     "CARD_SECONDARY_BG": [ "#80808080", "#80808080", "#80808080" ],
-    "CHANNELS_DEFAULT": [ "#80808080", "#80808080", "#80808080" ],
-    "CHANNEL_ICON": [ "#80808080", "#80808080", "#80808080" ],
-    "CHAT_BACKGROUND": [ "#80808080", "#80808080", "#80808080" ],
-    "CHAT_SWIPE_TO_REPLY_BACKGROUND": [ "#80808080", "#80808080", "#80808080" ],
-    "CHANNEL_TEXT_AREA_PLACEHOLDER": [ "#80808080", "#80808080", "#80808080" ],
     "CHANNELTEXTAREA_BACKGROUND": [ "#80808080", "#80808080", "#80808080" ],
-    "DEPRECATED_CARD_BG": [ "#80808080", "#80808080", "#80808080" ],
-    "DEPRECATED_CARD_EDITABLE_BG": [ "#80808080", "#80808080", "#80808080" ],
-    "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": [ "#80808080", "#80808080", "#80808080" ],
-    "DEPRECATED_STORE_BG": [ "#80808080", "#80808080", "#80808080" ],
-    "EMBED_BACKGROUND": [ "#808080CC", "#808080CC", "#808080CC" ],
-    "INPUT_BACKGROUND": [ "#80808080", "#80808080", "#80808080" ],
-    "INTERACTIVE_ACTIVE": [ "#80808080", "#80808080", "#80808080" ],
-    "INTERACTIVE_HOVER": [ "#80808055", "#80808055", "#80808055" ],
-    "INTERACTIVE_MUTED": [ "#80808033", "#80808033", "#80808033" ],
-    "INTERACTIVE_NORMAL": [ "#80808080", "#80808080", "#80808080" ],
-    "MENTION_FOREGROUND": [ "#ffffff", "#ffffff", "#ffffff" ],
+    "EMBED_BACKGROUND": [ "#80808080", "#80808080", "#80808080" ],
     "MODAL_FOOTER_BACKGROUND": [ "#80808080", "#80808080", "#80808080" ],
-    "PANEL_BG": [ "#80808080", "#80808080", "#80808080" ],
-    "SCROLLBAR_AUTO_THUMB": [ "#80808080", "#80808080", "#80808080" ],
-    "SCROLLBAR_THIN_TRACK": [ "#80808080", "#80808080", "#80808080" ],
-    "SCROLLBAR_THIN_THUMB": [ "#80808080", "#80808080", "#80808080" ],
-    "TEXT_NORMAL": [ "#ffffff", "#ffffff", "#ffffff" ],
-    "TEXT_MUTED": [ "#cccccc", "#cccccc", "#cccccc" ],
-    "TEXT_LINK": [ "#aaaaaa", "#aaaaaa", "#aaaaaa" ],
-    "TEXT_DANGER": [ "#ff6666", "#ff6666", "#ff6666" ]
-    // … tu peux ajouter ou remplacer d'autres couleurs selon ce que tu veux rendre plus ou moins visible
-  },
-  "rawColors": {
-    // si besoin, garder ou modifier mais ce sont moins critiques pour l'aspect containers
+    "PANEL_BG": [ "#80808080", "#80808080", "#80808080" ]
   },
   "background": {
     "url": "https://raw.githubusercontent.com/jamlotrasoiaf/ThemesCorrected/refs/heads/main/ClearVision/Vendetta/dark.jpg",
     "alpha": 1
-  },
-  "plus": {
-    "version": 0,
-    "customOverlays": true,
-    "icons": {
-      "ic_mic_neutral": "#80808080",
-      "ic_mic_muted_neutral": "#80808080",
-      "ic_soundboard": "#80808080",
-      "ic_soundboard_muted": "#80808080",
-      "ic_video": "#80808080",
-      "ic_video_disabled": "#80808080"
-    },
-    "iconpack": "rosiecord-plumpy"
   },
   "spec": 2
 }
