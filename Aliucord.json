@@ -1,19 +1,30 @@
 {
     "manifest": {
-        "name": "Blossomed",
-        "version": "1.0",
-        "author": "ukivie",
-        "updater": "https:\/\/github.com/SilentRipperMC\/My-theme\/blob\/main\/Aliucord.json"
-                    
+        "version": "1.0.1",
+        "name": "Northern Lights (Green) Theme",
+        "author": "Sakiro#6328",
+        "license": "CEA",
+        "updater": "https:\/\/raw.githubusercontent.com\/CaioAlbuquerque123\/My-Aliucord-Themes\/main\/NorthernLightsGreen.json"
     },
     "background": {
-        "overlay_alpha": 0,
-        "url": "https:\/\/i.imgur.com\/7ILrzuy.jpeg",
-        "blur_radius": 1
+        "overlay_alpha": 120,
+        "blur_radius": 0,
+        "url": "https:\/\/i.imgur.com\/NbIbfgd.jpeg"
     },
-    "fonts": {},
-    "simple_colors": {},
+    "fonts": {
+        "*": "https:\/\/cdn.discordapp.com\/attachments\/904126772055003146\/991065233260969994\/Louis_George_Cafe.ttf"
+    },
+    "simple_colors": {
+        "background_secondary": 0,
+        "background": 100663296
+    },
     "colors": {},
-    "drawable_tints": {},
+    "drawable_tints": {
+        "ic_sidebar_notifications_on_dark_24dp": -247547238,
+        "ic_sidebar_notifications_off_dark_24dp": -237554646,
+        "ic_sidebar_pins_off_dark_24dp": -247547238,
+        "ic_sidebar_pins_on_dark_24dp": -247547238,
+        "ic_thread": -247547238
+    },
     "raws": {}
 }
