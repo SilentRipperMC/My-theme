@@ -1,8 +1,8 @@
 /**
- * @name SilentRipper_
+ * @name SilentRipper_ (Translucence Fork)
  * @version 1.0.6.4
  * @description A translucent/frosted glass Discord theme
- * @author CapnKitten
+ * @author CapnKitten / SilentRipper_
  *
  * @website http://github.com/CapnKitten
  * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
@@ -23,7 +23,7 @@
 	--accent-hue: 550; /*--accent-hue: 50;*/
 	--accent-saturation: 77.5%;
 	--accent-lightness: 47.1%; /*--accent-lightness: 65.1%;*/
-	--accent-opacity: 1;
+	--accent-opacity: 0.5;
 	--accent-text-color: hsl(0,0%,0%);
 
 	/* SIDEBARS AND CHAT AREA COLOR SETTINGS */
@@ -91,11 +91,128 @@
 .mentioned__5126c { 
     border: none !important;
     box-shadow: none !important;
-    background-color: rgba(30, 30, 30, 0.35) !important;
+    background-color: rgba(0, 251, 255, 0.222) !important;
     /* Pour forcer le style même si Discord surcharge */
     z-index: 1 !important;
 }
 
 .embedFull__623de {
   border-radius: 3px !important;
+}
+
+.input__0f084 {
+	padding-left: 12px !important;
+	padding-right: 12px !important;
+}
+
+.progressContainer__0d0f9 {
+	background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.progress__0d0f9 {
+	background: linear-gradient(270deg, rgba(115, 173, 255, 0.4), rgba(115, 171, 255, 0.1)) !important;
+	background-image: linear-gradient(270deg, rgba(115, 173, 255, 0.4), rgba(115, 171, 255, 0.1)) !important;
+}
+
+.inner_c0bea0 {
+	background: url(https://i.imgur.com/jG1FO5t.png) !important;
+	background-size: cover !important;
+	background-position: center !important;
+	border-radius: 10px !important;
+}
+
+.textarea__9daae,
+.input__0ed4f,
+.scrollbarGhostHairline__506b3,
+.scrollbar__506b3 {
+	background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.popout__3f413,
+.popoutPositionTop__3f413,
+.none_d125d2,
+.scrollerBase_d125d2 {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.autocomplete__13533,
+.outerWrapper_d1405b,
+.wrapper__4e6ce,
+.listHeight_affa7e,
+.scroller_affa7e,
+.list_d1405b,
+.thin_d125d2,
+.wrapper__14245,
+.categoryHeader_d1405b,
+.header__14245 {
+	background: rgba(0, 0, 0, 0) !important;
+	backdrop-filter: blur(5px) !important;
+}
+
+.itemsContainer_ef3116 {
+	margin-top: -65px !important;
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.stack_dbd263,
+.scroller_ef3116,
+.none_d125d2,
+.scrollerBase_d125d2 {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.searchBar__97492 {
+	padding-top: 2px;
+}
+
+.input__0f084 {
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+.itemCard__7e549,
+.wrapper__00943,
+.outer_bf1984,
+.padded_bf1984,
+.interactive_bf1984 {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.peopleListItem_cc6179:hover {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.list_d1405b,
+.scroller__6b0e0 {
+	position: relative;
+	background-image: url(https://i.imgur.com/jG1FO5t.png) !important;
+	background-size: cover !important;
+	background-position: center !important;
+	overflow: hidden;
+}
+
+.list_d1405b::before
+.scroller__6b0e0 {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*background-color: rgba(0, 0, 0, 0.3);*/
+	z-index: 1;
+}
+
+.list_d1405b > * {
+	position: relative;
+	z-index: 2;
+}
+
+.sidebar__23e6b {
+	background: rgba(0, 0, 0, 0.1) !important;
+	border-radius: 10px !important;
+}
+
+.contentRegion__23e6b {
+	background: rgba(0, 0, 0, 0.1) !important;
+	border-radius: 10px !important;
 }
