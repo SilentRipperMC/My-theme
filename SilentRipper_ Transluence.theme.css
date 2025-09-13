@@ -90,7 +90,6 @@
     border: none !important;
     box-shadow: none !important;
     background-color: rgba(0, 251, 255, 0.222) !important;
-    /* Pour forcer le style même si Discord surcharge */
     z-index: 1 !important;
 }
 
@@ -357,5 +356,16 @@
 }
 
 .bar__7aaec {
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.outer_ab8609,
+.inner_ab8609 {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.container_cbd375,
+.headerBar__8a7fc,
+.relative__8a7fc {
 	background: rgba(0, 0, 0, 0.2) !important;
 }
