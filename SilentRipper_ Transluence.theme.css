@@ -23,11 +23,11 @@
 	--accent-hue: 550; /*--accent-hue: 50;*/
 	--accent-saturation: 77.5%;
 	--accent-lightness: 47.1%; /*--accent-lightness: 65.1%;*/
-	--accent-opacity: 0.5;
+	--accent-opacity: 0.9;
 	--accent-text-color: hsl(0,0%,0%);
 
 	/* SIDEBARS AND CHAT AREA COLOR SETTINGS */
-	--sidebar-color: hsl(0,0%,0%,0.4);
+	--sidebar-color: hsl(0,0%,0%,0.3);
 	--main-content-color: hsl(0,0%,0%,0.2);
 
 	/* MESSAGE SETTINGS */
@@ -208,11 +208,36 @@
 }
 
 .sidebar__23e6b {
-	background: rgba(0, 0, 0, 0.1) !important;
+	background: rgba(0, 0, 0, 0.2) !important;
 	border-radius: 10px !important;
+	padding-top: 25px !important;
 }
 
 .contentRegion__23e6b {
+	background: rgba(0, 0, 0, 0.2) !important;
+	border-radius: 10px !important;
+}
+
+.container__3412a {
 	background: rgba(0, 0, 0, 0.1) !important;
 	border-radius: 10px !important;
+	width: 95% !important;
+}
+
+.container_a14595 {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.container__37bfc {
+	backdrop-filter: blur(0px) !important;
+}
+
+.searchResultsWrap_a9e706 {
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+.browser_d98031,
+.container_d9c882,
+.container__6764b {
+	background: rgba(0, 0, 0, 0.2) !important;
 }
