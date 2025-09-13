@@ -336,3 +336,15 @@
 .clanTagChiplet_c19a55 {
 	background: rgba(0, 0, 0, 0.1) !important;
 }
+
+.jumpToPresentBar__0f481,
+.bottomBar__0f481,
+.barBase__0f481,
+.barWithAppLauncherButton__0f481 {
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.barButtonMain__0f481,
+.barButtonBase__0f481 {
+	color: white;
+}
