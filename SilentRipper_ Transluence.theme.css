@@ -86,8 +86,6 @@
 	--background-modifier-selected: hsl(0,0%,100%,0.125);
 }
 
-/* Rendre les messages reply et mentionnés plus clairs sans contour vert */
-
 .mentioned__5126c { 
     border: none !important;
     box-shadow: none !important;
@@ -347,4 +345,13 @@
 .barButtonMain__0f481,
 .barButtonBase__0f481 {
 	color: white;
+}
+
+.wrapper_c19a55.replying__5126c {
+  border-color: rgba(0, 170, 255, 0.566) !important;
+  box-shadow: none !important;
+}
+
+.numberBadge__2b1f5 {
+	background: rgb(0, 234, 255) !important;
 }
