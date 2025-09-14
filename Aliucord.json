@@ -1,30 +1,37 @@
 {
     "manifest": {
-        "version": "1.0.1",
-        "name": "Northern Lights (Green) Theme",
-        "author": "Sakiro#6328",
-        "license": "CEA",
-        "updater": "https:\/\/raw.githubusercontent.com\/CaioAlbuquerque123\/My-Aliucord-Themes\/main\/NorthernLightsGreen.json"
+        "version": "1.0",
+        "updater": "https:\/\/raw.githubusercontent.com\/system32149\/aliucord-discordrn-dark\/refs\/heads\/master\/DiscordRN%20Dark.json",
+        "name": "SilebtRipper_",
+        "author": "silent_ripper_mc"
     },
     "background": {
-        "overlay_alpha": 120,
-        "blur_radius": 0,
-        "url": "https:\/\/i.imgur.com\/NbIbfgd.jpeg"
+        "url": "https:\/\/i.imgur.com\/NbIbfgd.jpeg",
+        "blur_radius": 5
     },
     "fonts": {
-        "*": "https:\/\/cdn.discordapp.com\/attachments\/904126772055003146\/991065233260969994\/Louis_George_Cafe.ttf"
+        "ginto_bold": "https:\/\/github.com\/SeaCreeature\/-gg-sans-for-Aliucord\/raw\/refs\/heads\/main\/gg%20sans%20Bold.ttf",
+        "ginto_medium": "https:\/\/github.com\/SeaCreeature\/-gg-sans-for-Aliucord\/raw\/refs\/heads\/main\/gg%20sans%20Medium.ttf",
+        "ginto_regular": "https:\/\/github.com\/SeaCreeature\/-gg-sans-for-Aliucord\/raw\/refs\/heads\/main\/gg%20sans%20Regular.ttf",
+        "whitney_bold": "https:\/\/github.com\/SeaCreeature\/-gg-sans-for-Aliucord\/raw\/refs\/heads\/main\/gg%20sans%20Bold.ttf",
+        "whitney_medium": "https:\/\/github.com\/SeaCreeature\/-gg-sans-for-Aliucord\/raw\/refs\/heads\/main\/gg%20sans%20Medium.ttf",
+        "whitney_semibold": "https:\/\/github.com\/SeaCreeature\/-gg-sans-for-Aliucord\/raw\/refs\/heads\/main\/gg%20sans%20Regular.ttf",
+        "roboto_medium_numbers": "https:\/\/github.com\/SeaCreeature\/-gg-sans-for-Aliucord\/raw\/refs\/heads\/main\/gg%20sans%20Medium.ttf"
     },
     "simple_colors": {
-        "background_secondary": 0,
-        "background": 100663296
+        "background": 1842466,
+        "input_background": 841426735,
+        "background_secondary": 2565935,
+        "statusbar": 823926050
     },
-    "colors": {},
-    "drawable_tints": {
-        "ic_sidebar_notifications_on_dark_24dp": -247547238,
-        "ic_sidebar_notifications_off_dark_24dp": -237554646,
-        "ic_sidebar_pins_off_dark_24dp": -247547238,
-        "ic_sidebar_pins_on_dark_24dp": -247547238,
-        "ic_thread": -247547238
+    "colors": {
+        "primary_dark_700": 840176408,
+        "primary_dark_800": 841821493,
+        "brand_new": -10983950,
+        "white_800": -14934750,
+        "primary_630": 841426735,
+        "primary_660": 842611009
     },
+    "drawable_tints": {},
     "raws": {}
 }
