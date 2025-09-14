@@ -270,9 +270,9 @@
 .container__53cea,
 .size-lg__53cea,
 .padding-size-sm__53cea {
-	background: rgba(0, 0, 0, 0.2) !important;
+	background: rgba(0, 0, 0, 0.1) !important;
 	border-radius: 20px !important;
-	backdrop-filter: blur(0px) !important;
+	backdrop-filter: blur(5px) !important;
 }
 
 .quickswitcher_ac6cb0 {
@@ -368,4 +368,63 @@
 .headerBar__8a7fc,
 .relative__8a7fc {
 	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.embedFull__623de,
+.embed__623de {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.cardWrapper_aae012 {
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+.card_aae012,
+.completed_aae012 {
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.listContainer_bdbb1b {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.card__84e3e,
+.card_f215b9,
+.clickable__84e3e,
+.contentContainer__8f46b,
+.appContainer__5a4b6,
+.row_b1c9f2 {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.wrapper__3412a,
+.select_c248b6,
+.wrapper__3f413 {
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.container__3412a {
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+.container_d8f25b {
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.container_dca174,
+.profilePreview_dbba933 {
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+.headerEllipseBackdrop_f37cb1 {
+	border-radius: 10px !important;
+}
+
+.theme-dark:not(.custom-user-profile-theme),
+.visual-refresh.theme-dark:not(.custom-user-profile-theme),
+.visual-refresh .theme-dark:not(.custom-user-profile-theme) {
+	--background-mod-strong: rgba(0, 0, 0, 0.1);
+	--background-base-low: rgba(0, 0, 0, 0);
+	--background-base-lower: rgba(0, 0, 0, 0.1);
+	--background-surface-high: rgba(0, 0, 0, 0.3);
 }
