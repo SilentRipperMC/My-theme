@@ -1,8 +1,7 @@
 {
     "manifest": {
         "version": "1.0",
-        "updater": "https:\/\/raw.githubusercontent.com\/system32149\/aliucord-discordrn-dark\/refs\/heads\/master\/DiscordRN%20Dark.json",
-        "updater": "https:\/\/raw.githubusercontent.com\/system32149\/aliucord-discordrn-dark\/refs\/heads\/master\/DiscordRN%20Dark.json",
+        "updater": "https:\/\/raw.githubusercontent.com\/SilentRipperMC\/My-theme\/refs\/heads\/main\/Aliucord.json",
         "name": "SilebtRipper_",
         "author": "silent_ripper_mc"
     },
