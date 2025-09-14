@@ -426,5 +426,9 @@
 	--background-mod-strong: rgba(0, 0, 0, 0.1);
 	--background-base-low: rgba(0, 0, 0, 0);
 	--background-base-lower: rgba(0, 0, 0, 0.1);
-	--background-surface-high: rgba(0, 0, 0, 0.3);
+	/*--background-surface-high: url(https://i.imgur.com/7ILrzuy.jpeg) cover center !important;*/
+	--background-surface-high: 
+		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  		url(https://i.imgur.com/7ILrzuy.jpeg) center / cover no-repeat !important;
+
 }
