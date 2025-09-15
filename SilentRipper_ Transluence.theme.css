@@ -20,7 +20,7 @@
 	--app-radius: 8px;
 
 	/* ACCENT HSL AND TEXT COLOR SETTINGS */
-	--accent-hue: 550; /*--accent-hue: 50;*/
+	--accent-hue: 410; /*--accent-hue: 50;*/
 	--accent-saturation: 77.5%;
 	--accent-lightness: 47.1%; /*--accent-lightness: 65.1%;*/
 	--accent-opacity: 0.9;
@@ -89,7 +89,7 @@
 .mentioned__5126c { 
     border: none !important;
     box-shadow: none !important;
-    background-color: rgba(0, 251, 255, 0.222) !important;
+    background-color: rgba(255, 179, 0, 0.222) !important;
     z-index: 1 !important;
 }
 
@@ -351,7 +351,7 @@
 }
 
 .wrapper_c19a55.replying__5126c {
-  border-color: rgba(0, 170, 255, 0.566) !important;
+  border-color: rgba(255, 170, 0, 0.566) !important;
   box-shadow: none !important;
 }
 
