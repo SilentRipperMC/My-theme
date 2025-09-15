@@ -14,8 +14,8 @@
 
 :root {
 	/* APP ELEMENTS */
-	--app-bg: url(https://i.imgur.com/7ILrzuy.jpeg); /*https://i.imgur.com/AkjsAG6.jpeg*/
-	--app-blur: 5px;
+	--app-bg: url(https://i.imgur.com/Fhiwnjn.jpeg); /*https://i.imgur.com/7ILrzuy.jpeg*/
+	--app-blur: 10px;
 	--app-margin: 0px;
 	--app-radius: 8px;
 
@@ -112,7 +112,9 @@
 }
 
 .inner_c0bea0 {
-	background: url(https://i.imgur.com/jG1FO5t.png) !important;
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url(https://i.imgur.com/1FIhCIz.jpeg) !important; /*https://i.imgur.com/jG1FO5t.png*/
 	background-size: cover !important;
 	background-position: center !important;
 	border-radius: 10px !important;
@@ -181,7 +183,9 @@
 .list_d1405b,
 .scroller__6b0e0 {
 	position: relative;
-	background-image: url(https://i.imgur.com/jG1FO5t.png) !important;
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(https://i.imgur.com/1FIhCIz.jpeg) !important; /*https://i.imgur.com/jG1FO5t.png*/
 	background-size: cover !important;
 	background-position: center !important;
 	overflow: hidden;
