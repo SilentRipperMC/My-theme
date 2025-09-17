@@ -418,6 +418,7 @@
 .container_dca174,
 .profilePreview_dbba933 {
 	background: rgba(0, 0, 0, 0) !important;
+	backdrop-filter: blur(10px);
 }
 
 .headerEllipseBackdrop_f37cb1 {
