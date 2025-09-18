@@ -14,16 +14,16 @@
 
 :root {
 	/* APP ELEMENTS */
-	--app-bg: url(https://i.imgur.com/Fhiwnjn.jpeg); /*OCEAN https://i.imgur.com/7ILrzuy.jpeg        |       RED https://i.imgur.com/01o9bgv.jpeg      |      ANIMATED https://i.imgur.com/hiwjktr.gif*/
-	--app-blur: 10px;
+	--app-bg: url(https://i.imgur.com/01o9bgv.jpeg); /*OCEAN https://i.imgur.com/7ILrzuy.jpeg        |        RED https://i.imgur.com/01o9bgv.jpeg        |        YELLOW https://i.imgur.com/Fhiwnjn.jpeg       |       ANIMATED https://i.imgur.com/hiwjktr.gif*/
+	--app-blur: 0px;
 	--app-margin: 0px;
 	--app-radius: 8px;
 
 	/* ACCENT HSL AND TEXT COLOR SETTINGS */
-	--accent-hue: 410; /*--accent-hue: 50;*/
+	--accent-hue: 350; /*--accent-hue: 50;*/
 	--accent-saturation: 77.5%;
 	--accent-lightness: 47.1%; /*--accent-lightness: 65.1%;*/
-	--accent-opacity: 0.9;
+	--accent-opacity: 1;
 	--accent-text-color: hsl(0,0%,0%);
 
 	/* SIDEBARS AND CHAT AREA COLOR SETTINGS */
@@ -89,7 +89,7 @@
 .mentioned__5126c { 
     border: none !important;
     box-shadow: none !important;
-    background-color: rgba(255, 179, 0, 0.222) !important;
+    background-color: hsla(var(--accent-hue), var(--accent-saturation), var(--accent-lightness), 0.3) !important;
     z-index: 1 !important;
 }
 
@@ -107,14 +107,14 @@
 }
 
 .progress__0d0f9 {
-	background: linear-gradient(270deg, rgba(255, 213, 115, 0.4), rgba(255, 178, 115, 0.1)) !important;
-	background-image: linear-gradient(270deg, rgba(255, 213, 115, 0.4), rgba(255, 178, 115, 0.1)) !important;
+	background: linear-gradient(270deg, rgba(255, 148, 115, 0.4), rgba(255, 115, 115, 0.1)) !important;
+	background-image: linear-gradient(270deg, rgba(255, 148, 115, 0.4), rgba(255, 115, 115, 0.1)) !important;
 }
 
 .inner_c0bea0 {
 	background:
 		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-		url(https://i.imgur.com/1FIhCIz.jpeg) !important; /*https://i.imgur.com/jG1FO5t.png*/
+		url(https://i.imgur.com/01o9bgv.jpeg) !important; /*https://i.imgur.com/jG1FO5t.png*/
 	background-size: cover !important;
 	background-position: center !important;
 	border-radius: 10px !important;
@@ -185,7 +185,7 @@
 	position: relative;
 	background-image:
 		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-		url(https://i.imgur.com/1FIhCIz.jpeg) !important; /*https://i.imgur.com/jG1FO5t.png*/
+		url(https://i.imgur.com/01o9bgv.jpeg) !important; /*https://i.imgur.com/jG1FO5t.png*/
 	background-size: cover !important;
 	background-position: center !important;
 	overflow: hidden;
@@ -351,12 +351,12 @@
 }
 
 .wrapper_c19a55.replying__5126c {
-  border-color: rgb(215, 184, 27) !important;
+  border-color: hsl(var(--accent-hue), var(--accent-saturation), var(--accent-lightness)) !important;
   box-shadow: none !important;
 }
 
 .numberBadge__2b1f5 {
-	background: rgb(255, 213, 0) !important;
+	background: hsl(var(--accent-hue), var(--accent-saturation), var(--accent-lightness)) !important;
 }
 
 .bar__7aaec {
